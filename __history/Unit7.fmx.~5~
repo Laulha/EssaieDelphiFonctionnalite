@@ -1,0 +1,164 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Form7'
+  ClientHeight = 489
+  ClientWidth = 897
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Left
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF3F2A6E
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF5B2AC0
+        Offset = 0.562111794948577900
+      end
+      item
+        Color = xFFA080E3
+        Offset = 0.987577617168426500
+      end>
+    Fill.Gradient.StartPosition.X = 0.266846179962158200
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.733153820037841800
+    Fill.Gradient.StopPosition.Y = -0.000000025007132365
+    Size.Width = 409.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Layout1: TLayout
+    Align = Right
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.X = 408.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Rectangle2: TRectangle
+      Anchors = [akTop, akBottom]
+      Fill.Color = xFFF7F7F8
+      Size.Width = 489.000000000000000000
+      Size.Height = 489.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 489.000000000000000000
+        Size.Height = 489.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object CheckBox1: TCheckBox
+          StyledSettings = [FontColor]
+          Position.X = 80.000000000000000000
+          Position.Y = 360.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Rester connect'#233
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.StyleExt = {00040000000100000004000000}
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.FontColor = claGray
+          Position.X = 72.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 377.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Utilisateur'
+          StyledSettings = []
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Password = True
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.FontColor = claGray
+          Position.X = 72.000000000000000000
+          Position.Y = 224.000000000000000000
+          Size.Width = 377.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Password'
+          StyledSettings = []
+        end
+        object Label3: TLabel
+          StyledSettings = []
+          Position.X = 72.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.FontColor = xFF2B2A2A
+          Text = 'SE CONNECTER'
+          TabOrder = 3
+        end
+        object Rectangle3: TRectangle
+          Fill.Color = xFF4F25D4
+          Position.X = 288.000000000000000000
+          Position.Y = 304.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 3.000000000000000000
+          YRadius = 3.000000000000000000
+          object Label2: TLabel
+            StyledSettings = []
+            Position.X = 33.000000000000000000
+            Position.Y = 12.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+            TextSettings.FontColor = claWhite
+            Text = 'Connecter'
+            TabOrder = 0
+          end
+        end
+        object Rectangle4: TRectangle
+          Fill.Color = xFFEADEF6
+          Position.X = 80.000000000000000000
+          Position.Y = 305.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF442D8C
+          XRadius = 3.000000000000000000
+          YRadius = 3.000000000000000000
+          object Label1: TLabel
+            StyledSettings = [FontColor]
+            Position.X = 33.000000000000000000
+            Position.Y = 12.000000000000000000
+            Size.Width = 152.000000000000000000
+            Size.Height = 24.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00040000000100000004000000}
+            Text = 'Mot de passe oubli'#233'?'
+            TabOrder = 0
+          end
+        end
+      end
+    end
+  end
+end

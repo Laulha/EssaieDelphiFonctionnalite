@@ -1,0 +1,225 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 542
+  ClientWidth = 761
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnMouseMove = FormMouseMove
+  DesignerMasterStyle = 0
+  inline Frame51: TFrame5
+    Position.X = 288.000000000000000000
+    Position.Y = 304.000000000000000000
+    Size.Width = 449.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    inherited Rectangle1: TRectangle
+      inherited Label1: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Label2: TLabel
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+      end
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Position.X = 169.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 536.000000000000000000
+    Size.Height = 227.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'scrollboxstyle'
+    TabOrder = 1
+    Viewport.Width = 520.000000000000000000
+    Viewport.Height = 227.000000000000000000
+    inline Frame41: TFrame4
+      Position.X = 32.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 525.000000000000000000
+      Size.Height = 527.000000000000000000
+      Size.PlatformDefault = False
+      inherited Rectangle4: TRectangle
+        inherited Rectangle1: TRectangle
+          inherited Label1: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00020000000000000004000000}
+          end
+        end
+        inherited Rectangle11: TRectangle
+          inherited Label7: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label8: TLabel
+            TextSettings.Font.StyleExt = {00020000000000000004000000}
+          end
+        end
+        inherited Rectangle15: TRectangle
+          inherited Label9: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label10: TLabel
+            TextSettings.Font.StyleExt = {00020000000000000004000000}
+          end
+        end
+        inherited Rectangle8: TRectangle
+          inherited Label5: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label6: TLabel
+            TextSettings.Font.StyleExt = {00020000000000000004000000}
+          end
+        end
+        inherited Rectangle5: TRectangle
+          inherited Label3: TLabel
+            StyledSettings = [Family]
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF6D6F77
+          end
+          inherited Label4: TLabel
+            TextSettings.Font.StyleExt = {00020000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+  object Button1: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 48.000000000000000000
+    TabOrder = 3
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Lay: TLayout
+    Position.X = 24.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object re: TRectangle
+      Fill.Color = xF3FCFCFC
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnMouseEnter = reMouseEnter
+      OnMouseLeave = reMouseLeave
+      object ShadowEffect3: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object La: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'la'
+        TabOrder = 0
+      end
+    end
+    object re1: TRectangle
+      Fill.Color = xF3FCFCFC
+      Position.X = 8.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnMouseEnter = re1MouseEnter
+      OnMouseLeave = re1MouseLeave
+      object ShadowEffect1: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object la1: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'la1'
+        TabOrder = 0
+      end
+    end
+    object re2: TRectangle
+      Fill.Color = xF3FCFCFC
+      Position.X = 8.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnMouseEnter = re2MouseEnter
+      OnMouseLeave = re2MouseLeave
+      object ShadowEffect2: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object La2: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 40.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'la'
+        TabOrder = 0
+      end
+    end
+  end
+  object btn: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 136.000000000000000000
+    TabOrder = 2
+    Text = 'envoyer'
+    OnClick = Button1Click
+  end
+  object R: TRectangle
+    Fill.Color = xFF4F25D4
+    Position.X = 32.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button2: TButton
+    Position.X = 408.000000000000000000
+    Position.Y = 448.000000000000000000
+    TabOrder = 5
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
+end

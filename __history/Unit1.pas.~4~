@@ -1,0 +1,74 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Objects, FMX.Controls.Presentation, FMX.StdCtrls, FMX.Effects, FMX.Ani,
+  Unit4, FMX.Layouts;
+
+type
+  TForm1 = class(TForm)
+    Rectangle14: TRectangle;
+    Label11: TLabel;
+    ColorAnimation1: TColorAnimation;
+    Rectangle18: TRectangle;
+    Label12: TLabel;
+    ColorAnimation2: TColorAnimation;
+    Rectangle19: TRectangle;
+    Label13: TLabel;
+    ColorAnimation3: TColorAnimation;
+    Rectangle20: TRectangle;
+    Label14: TLabel;
+    ColorAnimation4: TColorAnimation;
+    Rectangle21: TRectangle;
+    Label15: TLabel;
+    ColorAnimation5: TColorAnimation;
+    contener: TRectangle;
+    rect1: TRectangle;
+    Rectangle2: TRectangle;
+    Rectangle3: TRectangle;
+    Label1: TLabel;
+    Label2: TLabel;
+    ShadowEffect1: TShadowEffect;
+    Rectangle11: TRectangle;
+    Rectangle12: TRectangle;
+    Rectangle13: TRectangle;
+    Label7: TLabel;
+    Label8: TLabel;
+    ShadowEffect4: TShadowEffect;
+    Rectangle15: TRectangle;
+    Rectangle16: TRectangle;
+    Rectangle17: TRectangle;
+    Label9: TLabel;
+    Label10: TLabel;
+    ShadowEffect5: TShadowEffect;
+    Rectangle8: TRectangle;
+    Rectangle9: TRectangle;
+    Rectangle10: TRectangle;
+    Label5: TLabel;
+    Label6: TLabel;
+    ShadowEffect3: TShadowEffect;
+    Rectangle5: TRectangle;
+    Rectangle6: TRectangle;
+    Rectangle7: TRectangle;
+    Label3: TLabel;
+    Label4: TLabel;
+    ShadowEffect2: TShadowEffect;
+    Button1: TButton;
+    lbel: TLabel;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+end.

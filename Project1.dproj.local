@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 10:07:26.000.320,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2020/02/16 10:29:32.000.794,C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit1.pas</Transaction>
+    <Transaction>2020/02/16 10:29:32.000.840,C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\Unit1.fmx=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit1.fmx</Transaction>
+    <Transaction>2020/02/16 10:31:42.000.560,C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Project1.dproj</Transaction>
+    <Transaction>2020/02/18 16:55:31.000.504,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit2.pas</Transaction>
+    <Transaction>2020/02/18 18:24:45.000.317,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit3.pas</Transaction>
+    <Transaction>2020/02/18 18:25:15.000.025,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit4.pas</Transaction>
+    <Transaction>2020/02/18 21:18:21.000.794,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit5.pas</Transaction>
+    <Transaction>2020/02/21 13:59:10.000.087,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit6.pas</Transaction>
+    <Transaction>2020/02/25 09:19:17.000.328,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit7.pas</Transaction>
+    <Transaction>2020/02/27 01:06:26.000.186,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit8.pas</Transaction>
+    <Transaction>2020/02/27 14:25:52.000.761,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit9.pas</Transaction>
+    <Transaction>2020/07/26 14:23:20.000.673,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit10.pas</Transaction>
+    <Transaction>2020/08/05 15:31:22.000.448,=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\testProjet\Unit11.pas</Transaction>
+  </Transactions>
+</BorlandProject>

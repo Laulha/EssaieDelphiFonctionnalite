@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Position.X = 32.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = xFFAF7F7F
+    Position.X = 48.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 168.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'MOTT LAULHA'
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 168.000000000000000000
+    Position.Y = 104.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00020000000000000004000000}
+    Text = 'Developpeur'
+    TabOrder = 3
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = xFF140303
+    Position.X = 352.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Resource
+  end
+end

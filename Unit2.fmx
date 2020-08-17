@@ -1,0 +1,171 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 535
+  ClientWidth = 1065
+  Fill.Color = xF3F3F4F8
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object main: TRectangle
+    Fill.Color = xF3FCFCFC
+    Position.X = 224.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 625.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 2.000000000000000000
+    YRadius = 2.000000000000000000
+    object ShadowEffect1: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = xF3FCFCFC
+    Position.X = 856.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object ShadowEffect2: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object Circle1: TCircle
+    Position.X = 912.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 3.000000000000000000
+  end
+  object Rectangle4: TRectangle
+    Fill.Color = xF3FCFCFC
+    Position.X = 8.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object ShadowEffect3: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object Label9: TLabel
+    StyledSettings = []
+    Position.X = 72.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGray
+    TextSettings.HorzAlign = Center
+    Text = 'Dashbord'
+    TabOrder = 6
+  end
+  object Label11: TLabel
+    StyledSettings = []
+    Position.X = 72.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGray
+    TextSettings.HorzAlign = Center
+    Text = 'Dashbord'
+    TabOrder = 5
+  end
+  object Label12: TLabel
+    StyledSettings = []
+    Position.X = 72.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGray
+    TextSettings.HorzAlign = Center
+    Text = 'Dashbord'
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Position.X = 912.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  inline Frame61: TFrame6
+    Position.Y = 136.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    inherited ret: TRectangle
+      Size.Width = 185.000000000000000000
+      inherited Lb: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inline Frame62: TFrame6
+    Position.Y = 184.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    inherited ret: TRectangle
+      inherited Lb: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = xF3FCFCFC
+    Position.X = 224.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 617.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object ShadowEffect4: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+end

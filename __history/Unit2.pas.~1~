@@ -1,0 +1,41 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Effects, FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    main: TRectangle;
+    Rectangle2: TRectangle;
+    ShadowEffect1: TShadowEffect;
+    ShadowEffect2: TShadowEffect;
+    Circle1: TCircle;
+    Rectangle4: TRectangle;
+    ShadowEffect3: TShadowEffect;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.fmx}
+
+end.

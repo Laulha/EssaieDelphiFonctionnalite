@@ -1,0 +1,453 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 528
+  ClientWidth = 757
+  Fill.Color = xFF405267
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle14: TRectangle
+    Fill.Color = xFF405267
+    Position.X = 32.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label11: TLabel
+      StyledSettings = []
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claHoneydew
+      TextSettings.HorzAlign = Center
+      Text = 'Label11'
+      TabOrder = 0
+      object ColorAnimation1: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+  end
+  object Rectangle18: TRectangle
+    Fill.Color = xFF405267
+    Position.X = 32.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label12: TLabel
+      StyledSettings = []
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claHoneydew
+      TextSettings.HorzAlign = Center
+      Text = 'Label11'
+      TabOrder = 0
+      object ColorAnimation2: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+  end
+  object Rectangle19: TRectangle
+    Fill.Color = xFF405267
+    Position.X = 32.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label13: TLabel
+      StyledSettings = []
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claHoneydew
+      TextSettings.HorzAlign = Center
+      Text = 'Label11'
+      TabOrder = 0
+      object ColorAnimation3: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+  end
+  object Rectangle20: TRectangle
+    Fill.Color = xFF405267
+    Position.X = 32.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label14: TLabel
+      StyledSettings = []
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claHoneydew
+      TextSettings.HorzAlign = Center
+      Text = 'Label11'
+      TabOrder = 0
+      object ColorAnimation4: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+  end
+  object Rectangle21: TRectangle
+    Fill.Color = xFF405267
+    Position.X = 32.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label15: TLabel
+      StyledSettings = []
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claHoneydew
+      TextSettings.HorzAlign = Center
+      Text = 'Label11'
+      TabOrder = 0
+      object ColorAnimation5: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+  end
+  object contener: TRectangle
+    Fill.Color = xFFF8F8F8
+    Position.X = 291.000000000000000000
+    Size.Width = 473.000000000000000000
+    Size.Height = 528.000000000000000000
+    Size.PlatformDefault = False
+    object rect1: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Rectangle2: TRectangle
+        Fill.Color = xFFAF7F7F
+        Position.X = 24.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle3: TRectangle
+        Fill.Color = xFF140303
+        Position.X = 368.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = Resource
+      end
+      object Label1: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'HAMZAOUI BILLY'
+        TabOrder = 2
+      end
+      object Label2: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 40.000000000000000000
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        Text = 'Developpeur'
+        TabOrder = 3
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle11: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 200.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Rectangle12: TRectangle
+        Fill.Color = xFFAF7F7F
+        Position.X = 24.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle13: TRectangle
+        Fill.Color = xFF140303
+        Position.X = 368.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = Resource
+      end
+      object Label7: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'MOTT LAULHA'
+        TabOrder = 2
+      end
+      object Label8: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 40.000000000000000000
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        Text = 'Developpeur'
+        TabOrder = 3
+      end
+      object ShadowEffect4: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle15: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Rectangle16: TRectangle
+        Fill.Color = xFFAF7F7F
+        Position.X = 24.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle17: TRectangle
+        Fill.Color = xFF140303
+        Position.X = 368.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = Resource
+      end
+      object Label9: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'MOTT LAULHA'
+        TabOrder = 2
+      end
+      object Label10: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 40.000000000000000000
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        Text = 'Developpeur'
+        TabOrder = 3
+      end
+      object ShadowEffect5: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle8: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Rectangle9: TRectangle
+        Fill.Color = xFFAF7F7F
+        Position.X = 24.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle10: TRectangle
+        Fill.Color = xFF140303
+        Position.X = 368.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = Resource
+      end
+      object Label5: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'MOTT LAULHA'
+        TabOrder = 2
+      end
+      object Label6: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 40.000000000000000000
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        Text = 'Developpeur'
+        TabOrder = 3
+      end
+      object ShadowEffect3: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle5: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Rectangle6: TRectangle
+        Fill.Color = xFFAF7F7F
+        Position.X = 24.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle7: TRectangle
+        Fill.Color = xFF140303
+        Position.X = 368.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = Resource
+      end
+      object Label3: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'MOTT LAULHA'
+        TabOrder = 2
+      end
+      object Label4: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 136.000000000000000000
+        Position.Y = 40.000000000000000000
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        Text = 'Developpeur'
+        TabOrder = 3
+      end
+      object ShadowEffect2: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object Button1: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 296.000000000000000000
+    TabOrder = 9
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object lbel: TLabel
+    Position.X = 384.000000000000000000
+    Position.Y = 456.000000000000000000
+    Text = 'lbel'
+    TabOrder = 10
+  end
+end
