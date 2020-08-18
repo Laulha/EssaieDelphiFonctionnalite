@@ -32,6 +32,9 @@ type
     Button2: TButton;
     Button3: TButton;
     Label2: TLabel;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
     procedure Edit1Enter(Sender: TObject);
     procedure mtopFinish(Sender: TObject);
     procedure fsizeFinish(Sender: TObject);
@@ -45,6 +48,9 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -100,6 +106,30 @@ begin
 
 f2.Label1.Text := 'Mott laulha';
 
+end;
+
+procedure TForm9.Button4Click(Sender: TObject);
+begin
+f2.Parent := nil;
+end;
+
+procedure TForm9.Button5Click(Sender: TObject);
+begin
+ try
+      if Layout3.Controls[0] is TFrame5 then
+      label2.Text := 'Element crée';
+ except
+  on E : EArgumentOutOfRangeException do
+    label2.Text := 'Element non crée';
+
+ end;
+
+
+end;
+
+procedure TForm9.Button6Click(Sender: TObject);
+begin
+f2.Parent := Layout3;
 end;
 
 procedure TForm9.clabelFinish(Sender: TObject);
