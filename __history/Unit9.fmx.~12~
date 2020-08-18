@@ -144,11 +144,8 @@ object Form9: TForm9
   object Button1: TButton
     Position.X = 480.000000000000000000
     Position.Y = 368.000000000000000000
-    Size.Width = 105.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
     TabOrder = 2
-    Text = 'Creer Frame'
+    Text = 'Button1'
     OnClick = Button1Click
   end
   object Label1: TLabel
@@ -168,21 +165,15 @@ object Form9: TForm9
   object Button2: TButton
     Position.X = 624.000000000000000000
     Position.Y = 360.000000000000000000
-    Size.Width = 105.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
     TabOrder = 6
-    Text = 'Detruire Frame'
+    Text = 'Button2'
     OnClick = Button2Click
   end
   object Button3: TButton
     Position.X = 232.000000000000000000
     Position.Y = 304.000000000000000000
-    Size.Width = 121.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
     TabOrder = 7
-    Text = 'Modifier Frame'
+    Text = 'Button3'
     OnClick = Button3Click
   end
   object Label2: TLabel
@@ -190,32 +181,5 @@ object Form9: TForm9
     Position.Y = 304.000000000000000000
     Text = 'Label2'
     TabOrder = 8
-  end
-  object Button4: TButton
-    Position.X = 392.000000000000000000
-    Position.Y = 312.000000000000000000
-    Size.Width = 137.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 9
-    Text = 'Retirer parent Frame'
-    OnClick = Button4Click
-  end
-  object Button5: TButton
-    Position.X = 112.000000000000000000
-    Position.Y = 376.000000000000000000
-    TabOrder = 10
-    Text = 'Button5'
-    OnClick = Button5Click
-  end
-  object Button6: TButton
-    Position.X = 592.000000000000000000
-    Position.Y = 328.000000000000000000
-    Size.Width = 137.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 11
-    Text = 'Remettre frame'
-    OnClick = Button6Click
   end
 end

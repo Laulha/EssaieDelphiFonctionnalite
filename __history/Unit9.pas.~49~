@@ -32,6 +32,9 @@ type
     Button2: TButton;
     Button3: TButton;
     Label2: TLabel;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
     procedure Edit1Enter(Sender: TObject);
     procedure mtopFinish(Sender: TObject);
     procedure fsizeFinish(Sender: TObject);
@@ -45,6 +48,9 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -78,6 +84,7 @@ begin
 //
 //  end;
 
+    // Ceci permet de facilement créer une frame de façon dynamique.
     f2 := TFrame5.Create(Form9);
     f2.Parent := form9.Layout3;
     f2.Name := f2.Name + '1';
@@ -88,7 +95,7 @@ end;
 procedure TForm9.Button2Click(Sender: TObject);
 begin
 //f1.Destroy;
-f2.Destroy;
+f2.free;
 end;
 
 procedure TForm9.Button3Click(Sender: TObject);
@@ -99,12 +106,29 @@ begin
 
 f2.Label1.Text := 'Mott laulha';
 
-if f2.Controls[0].Controls[0] is TLabel then
+end;
+
+procedure TForm9.Button4Click(Sender: TObject);
+begin
+f2.Parent := nil;
+end;
+
+procedure TForm9.Button5Click(Sender: TObject);
+begin
+if not Assigned(layout3.Controls[0]) then
   begin
-      Label2.Text := 'Je suis le label';
-//     titre := f2.Controls[0].Controls[0] as TLabel;
-//     titre.Text := 'Mott laulha';
+    if layout3.Controls[0] is TFrame5 then
+      Label2.Text := 'Frame trouver'
+      else
+        Label2.Text := 'je ne trouve pas';
   end;
+
+
+end;
+
+procedure TForm9.Button6Click(Sender: TObject);
+begin
+f2.Parent := Layout3;
 end;
 
 procedure TForm9.clabelFinish(Sender: TObject);

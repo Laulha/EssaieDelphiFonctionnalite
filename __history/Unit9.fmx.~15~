@@ -214,7 +214,7 @@ object Form9: TForm9
     Size.Width = 137.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 11
+    TabOrder = 12
     Text = 'Remettre frame'
     OnClick = Button6Click
   end
