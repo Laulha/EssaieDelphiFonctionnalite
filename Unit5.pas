@@ -29,7 +29,7 @@ implementation
 
 procedure TFrame5.FrameClick(Sender: TObject);
 begin
-     f1 := nil;
+     f1.Free;
 end;
 
 end.

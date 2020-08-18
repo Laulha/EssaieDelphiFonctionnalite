@@ -3,19 +3,20 @@ object Form3: TForm3
   Top = 0
   Caption = 'Form3'
   ClientHeight = 542
-  ClientWidth = 818
+  ClientWidth = 869
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   OnMouseMove = FormMouseMove
   DesignerMasterStyle = 0
   inline Frame51: TFrame5
-    Position.X = 352.000000000000000000
-    Position.Y = 280.000000000000000000
-    Size.Width = 449.000000000000000000
+    Align = Top
+    Size.Width = 869.000000000000000000
     Size.Height = 97.000000000000000000
     Size.PlatformDefault = False
     inherited Rectangle1: TRectangle
+      Position.X = 12.000000000000000000
+      Position.Y = 13.000000000000000000
       inherited Label1: TLabel
         TextSettings.Font.StyleExt = {00070000000000000004000000}
       end
@@ -25,8 +26,8 @@ object Form3: TForm3
     end
   end
   object VertScrollBox1: TVertScrollBox
-    Position.X = 169.000000000000000000
-    Position.Y = 32.000000000000000000
+    Position.X = 321.000000000000000000
+    Position.Y = 112.000000000000000000
     Size.Width = 536.000000000000000000
     Size.Height = 227.000000000000000000
     Size.PlatformDefault = False
@@ -87,8 +88,8 @@ object Form3: TForm3
     end
   end
   object Button1: TButton
-    Position.X = 48.000000000000000000
-    Position.Y = 48.000000000000000000
+    Position.X = 176.000000000000000000
+    Position.Y = 144.000000000000000000
     TabOrder = 3
     Text = 'Button1'
     OnClick = Button1Click
@@ -202,7 +203,7 @@ object Form3: TForm3
   end
   object btn: TButton
     Position.X = 56.000000000000000000
-    Position.Y = 136.000000000000000000
+    Position.Y = 152.000000000000000000
     TabOrder = 2
     Text = 'envoyer'
     OnClick = Button1Click

@@ -4,14 +4,15 @@ object dm: Tdm
   Width = 591
   object FDConnection1: TFDConnection
     Params.Strings = (
-      'Database=M:\SQLiteDatabaseBrowserPortable\mabase.db'
+      
+        'Database=C:\Users\Lausha\Documents\Embarcadero\Studio\Projets\te' +
+        'stProjet\mabase.db'
       'DriverID=SQLite')
-    Connected = True
+    LoginPrompt = False
     Left = 280
     Top = 160
   end
   object FDTable1: TFDTable
-    Active = True
     IndexFieldNames = 'idFemme'
     Connection = FDConnection1
     UpdateOptions.UpdateTableName = 'FEMME'

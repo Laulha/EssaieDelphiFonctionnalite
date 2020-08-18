@@ -169,4 +169,17 @@ object Form9: TForm9
     Text = 'Button2'
     OnClick = Button2Click
   end
+  object Button3: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 304.000000000000000000
+    TabOrder = 7
+    Text = 'Button3'
+    OnClick = Button3Click
+  end
+  object Label2: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 304.000000000000000000
+    Text = 'Label2'
+    TabOrder = 8
+  end
 end

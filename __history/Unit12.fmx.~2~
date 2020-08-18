@@ -1,0 +1,39 @@
+object Form12: TForm12
+  Left = 0
+  Top = 0
+  Caption = 'Form12'
+  ClientHeight = 494
+  ClientWidth = 902
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 434.000000000000000000
+    Size.Height = 329.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Layout2: TLayout
+    Position.X = 464.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 434.000000000000000000
+    Size.Height = 329.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 392.000000000000000000
+    TabOrder = 2
+    Text = 'Button1'
+  end
+  object Button2: TButton
+    Position.X = 592.000000000000000000
+    Position.Y = 392.000000000000000000
+    TabOrder = 3
+    Text = 'Button2'
+  end
+end

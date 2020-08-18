@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Ani,
-  FMX.StdCtrls, FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.Layouts;
+  FMX.StdCtrls, FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.Layouts,
+  Unit5;
 
 type
   TForm9 = class(TForm)
@@ -29,6 +30,8 @@ type
     clabelI: TColorAnimation;
     Layout3: TLayout;
     Button2: TButton;
+    Button3: TButton;
+    Label2: TLabel;
     procedure Edit1Enter(Sender: TObject);
     procedure mtopFinish(Sender: TObject);
     procedure fsizeFinish(Sender: TObject);
@@ -41,6 +44,7 @@ type
     procedure clabelIFinish(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -49,12 +53,16 @@ type
 
 var
   Form9: TForm9;
+  f2 : TFrame5;
+  f3 : TFrame5;
+  titre : TLabel;
+
 
 implementation
 
 {$R *.fmx}
 
-uses Unit5;
+
 
 
 
@@ -62,18 +70,36 @@ uses Unit5;
 //  Mais il faut tout d'abord créer la variable f1 au sein de la frame elle même avec pour type la frame.
 procedure TForm9.Button1Click(Sender: TObject);
 begin
-if not Assigned(f1) then
-  begin
-  // Ces deux ligne suffisent pour faire assigner une frame dans une autre fiche.
-    f1 := TFrame5.Create(Form9);
-    f1.Parent := form9.Layout3;
+//if not Assigned(f1) then
+//  begin
+//  // Ces deux ligne suffisent pour faire assigner une frame dans une autre fiche.
+//    f1 := TFrame5.Create(Form9);
+//    f1.Parent := form9.Layout3;
+//
+//  end;
 
-  end;
+    // Ceci permet de facilement créer une frame de façon dynamique.
+    f2 := TFrame5.Create(Form9);
+    f2.Parent := form9.Layout3;
+    f2.Name := f2.Name + '1';
+
+
 end;
 
 procedure TForm9.Button2Click(Sender: TObject);
 begin
-f1.Destroy;
+//f1.Destroy;
+f2.free;
+end;
+
+procedure TForm9.Button3Click(Sender: TObject);
+begin
+// Ce code permet de retrouver un élément
+//if Layout3.Controls[0] is TFrame5 then
+//  label2.Text := layout3.Controls[0].Name;
+
+f2.Label1.Text := 'Mott laulha';
+
 end;
 
 procedure TForm9.clabelFinish(Sender: TObject);

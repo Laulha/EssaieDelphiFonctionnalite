@@ -1,0 +1,62 @@
+object Frame5: TFrame5
+  Size.Width = 457.000000000000000000
+  Size.Height = 117.000000000000000000
+  Size.PlatformDefault = False
+  OnClick = FrameClick
+  object Rectangle1: TRectangle
+    Position.X = 7.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 433.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object Rectangle2: TRectangle
+      Fill.Color = xFFAF7F7F
+      Position.X = 24.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Rectangle3: TRectangle
+      Fill.Color = xFF140303
+      Position.X = 368.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = Resource
+    end
+    object Label1: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.X = 136.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'HAMZAOUI BILLY'
+      TabOrder = 2
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.X = 136.000000000000000000
+      Position.Y = 40.000000000000000000
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00020000000000000004000000}
+      Text = 'Developpeur'
+      TabOrder = 3
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+end

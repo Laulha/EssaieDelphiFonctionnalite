@@ -1,11 +1,12 @@
 object Frame5: TFrame5
-  Size.Width = 457.000000000000000000
-  Size.Height = 117.000000000000000000
+  Align = Top
+  Size.Width = 434.000000000000000000
+  Size.Height = 67.000000000000000000
   Size.PlatformDefault = False
   OnClick = FrameClick
   object Rectangle1: TRectangle
-    Position.X = 7.000000000000000000
-    Position.Y = 8.000000000000000000
+    Position.X = 1.000000000000000000
+    Position.Y = 2.000000000000000000
     Size.Width = 433.000000000000000000
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
